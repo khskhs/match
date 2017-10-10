@@ -1,5 +1,6 @@
 package work2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class beanDepartment {
@@ -8,7 +9,7 @@ public class beanDepartment {
 	public String department_no;
 	public List<String> tags;
 	public boolean Dep_admit =false;
-	public List<String> student_no; 
+	public List<String> student_no=new ArrayList<>(); 
 	public int student_num=0;
 	
 	public List<String> getEvent_schedules() {

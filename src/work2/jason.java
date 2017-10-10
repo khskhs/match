@@ -22,6 +22,7 @@ public class jason {
 	
 	String o =gson.toJson(ou);
 	//String s=gson.toJson(b);
+	o=JsonFormatTool.formatJson(o);
 	writer.write(o);
 	writer.flush();
 	reader.close();

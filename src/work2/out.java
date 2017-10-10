@@ -5,7 +5,7 @@ public class out {
 	public List<String> unlucky_student=new ArrayList<>();
 	
 	public static class admitted {
-		public List<String> student_no=new ArrayList<>();
+		public List<String> member=new ArrayList<>();
 		public String department_no;
 	}
 	public List<admitted> admitted= new ArrayList<>();
